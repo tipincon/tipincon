@@ -27,6 +27,9 @@ const titles1Text = computed<string[]>(() => t('pages.index.title1').split('[]')
 const leadings1Text = computed(() => [
   {
     text: titles1Text.value[0],
+    startColor: '#FFFFFF',
+    endColor: '#FFFFFF',
+    delay: 0,
   },
 ])
 const toolti = ref(false)
